@@ -58,21 +58,21 @@ public class DatabaseConnection
     }
 
     public int executeScalar(string command)
-    {    
+    {
         setupSqlCommand(command);
 
         try
         {
             conn.Open();
-           
-            return (int) comm.ExecuteScalar();
+
+            return (int)comm.ExecuteScalar();
         }
         catch
-        { 
+        {
             return -1; //failure
         }
         finally
-        {   
+        {
             conn.Close();
         }
     }

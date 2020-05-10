@@ -39,7 +39,7 @@
     </div>
     <asp:Button ID="btnRegister" runat="server" 
         style="z-index: 1; left: 293px; top: 260px; position: absolute" 
-        Text="Register" />
+        Text="Register" PostBackUrl="StudentRegistration.aspx"  />
     </form>
 </body>
 </html>

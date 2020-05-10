@@ -82,6 +82,11 @@
     <Content Include="UserLogin.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\Modules.cs" />
+    <Compile Include="App_Code\UserRoles.cs" />
+    <Compile Include="App_Code\Users.cs" />
+    <Compile Include="App_Code\CourseModules.cs" />
+    <Compile Include="App_Code\Courses.cs" />
     <Compile Include="Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
